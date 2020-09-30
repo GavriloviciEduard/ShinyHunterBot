@@ -3,29 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShinyHunterBot", "ShinyHunterBot\ShinyHunterBot.vcxproj", "{00708E8C-E074-4A04-880F-9437C9E85168}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShinyHunterBot", "ShinyHunterBot\ShinyHunterBot.vcxproj", "{D2C5BFD2-8109-4E29-8B58-09702C9192D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{00708E8C-E074-4A04-880F-9437C9E85168}.Debug|x64.ActiveCfg = Debug|x64
-		{00708E8C-E074-4A04-880F-9437C9E85168}.Debug|x64.Build.0 = Debug|x64
-		{00708E8C-E074-4A04-880F-9437C9E85168}.Debug|x86.ActiveCfg = Debug|Win32
-		{00708E8C-E074-4A04-880F-9437C9E85168}.Debug|x86.Build.0 = Debug|Win32
-		{00708E8C-E074-4A04-880F-9437C9E85168}.Release|x64.ActiveCfg = Release|x64
-		{00708E8C-E074-4A04-880F-9437C9E85168}.Release|x64.Build.0 = Release|x64
-		{00708E8C-E074-4A04-880F-9437C9E85168}.Release|x86.ActiveCfg = Release|Win32
-		{00708E8C-E074-4A04-880F-9437C9E85168}.Release|x86.Build.0 = Release|Win32
+		{D2C5BFD2-8109-4E29-8B58-09702C9192D4}.Debug|x64.ActiveCfg = Debug|x64
+		{D2C5BFD2-8109-4E29-8B58-09702C9192D4}.Debug|x64.Build.0 = Debug|x64
+		{D2C5BFD2-8109-4E29-8B58-09702C9192D4}.Release|x64.ActiveCfg = Release|x64
+		{D2C5BFD2-8109-4E29-8B58-09702C9192D4}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {907F7C71-BF13-4E7F-B50B-85400F5790A4}
+		SolutionGuid = {4AC8286C-C179-4193-8204-F9FD41768FD7}
 	EndGlobalSection
 EndGlobal
