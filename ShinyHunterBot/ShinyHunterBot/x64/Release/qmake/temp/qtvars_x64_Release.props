@@ -1,8 +1,8 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-<Qt_DEFINES_>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB;NDEBUG</Qt_DEFINES_>
-<Qt_INCLUDEPATH_>C:\Qt\5.13.0\msvc2017_64\include;C:\Qt\5.13.0\msvc2017_64\include\QtGui;C:\Qt\5.13.0\msvc2017_64\include\QtANGLE;C:\Qt\5.13.0\msvc2017_64\include\QtCore;\include;C:\Qt\5.13.0\msvc2017_64\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
-<Qt_LIBS_>C:\Qt\5.13.0\msvc2017_64\lib\Qt5Gui.lib;C:\Qt\5.13.0\msvc2017_64\lib\Qt5Core.lib;C:\Qt\5.13.0\msvc2017_64\lib\qtmain.lib;shell32.lib</Qt_LIBS_>
+<Qt_DEFINES_>WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NDEBUG</Qt_DEFINES_>
+<Qt_INCLUDEPATH_>C:\Qt\5.13.0\msvc2017_64\include;C:\Qt\5.13.0\msvc2017_64\include\QtWidgets;C:\Qt\5.13.0\msvc2017_64\include\QtGui;C:\Qt\5.13.0\msvc2017_64\include\QtANGLE;C:\Qt\5.13.0\msvc2017_64\include\QtCore;\include;C:\Qt\5.13.0\msvc2017_64\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
+<Qt_LIBS_>C:\Qt\5.13.0\msvc2017_64\lib\Qt5Widgets.lib;C:\Qt\5.13.0\msvc2017_64\lib\Qt5Gui.lib;C:\Qt\5.13.0\msvc2017_64\lib\Qt5Core.lib;C:\Qt\5.13.0\msvc2017_64\lib\qtmain.lib;shell32.lib</Qt_LIBS_>
 <Qt_LIBPATH_>C:\openssl\lib;C:\Utils\postgresql\pgsql\lib</Qt_LIBPATH_>
 <QMake_QT_SYSROOT_></QMake_QT_SYSROOT_>
 <QMake_QT_INSTALL_PREFIX_>C:/Qt/5.13.0/msvc2017_64</QMake_QT_INSTALL_PREFIX_>
@@ -30,11 +30,11 @@
 <QMake_QMAKE_VERSION_>3.1</QMake_QMAKE_VERSION_>
 <QMake_QT_VERSION_>5.13.0</QMake_QT_VERSION_>
 <Qt_INCLUDEPATH_
-      >$(Qt_INCLUDEPATH_);x64\Release\moc</Qt_INCLUDEPATH_>
+      >$(Qt_INCLUDEPATH_);x64\Release\moc;x64\Release\uic</Qt_INCLUDEPATH_>
     <QtBkup_QtInstall
       >qt5</QtBkup_QtInstall>
     <QtBkup_QtModules
-      >core</QtBkup_QtModules>
+      >core;gui;widgets</QtBkup_QtModules>
     <QtBkup_QtPathBinaries
       >bin</QtBkup_QtPathBinaries>
     <QtBkup_QtPathLibraryExecutables

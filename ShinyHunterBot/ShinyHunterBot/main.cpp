@@ -1,7 +1,11 @@
-#include <QtCore/QCoreApplication>
+#include <QApplication>
+#include "shinyhunterservice.h"
+
 
 int main(int argc, char* argv[])
 {
-	QCoreApplication application(argc, argv);
+	QApplication application(argc, argv);
+	shiny_hunter::ShinyHunterService shinyHunterService;
+	shinyHunterService.createWindowContainer();
 	return application.exec();
 }
